@@ -22,19 +22,15 @@ table, tr, td ,th {
   border: 1px solid black;
 
   border-width: 4px;
+
   border-collapse: collapse;
 
 
 
 
-}
-
-.surname-th {
-  
-  border: none;
-
 
 }
+
 
 td {
 
@@ -62,6 +58,22 @@ th {
   margin-top: 2px;
   width: 300px;
   display: block;
+
+
+
+}
+
+.surname-th {
+
+  border-left: none;
+
+
+
+}
+
+.name-th {
+
+  border-right: none;
 
 
 
